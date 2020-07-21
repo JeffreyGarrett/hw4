@@ -1,0 +1,29 @@
+<%- include('partials/header.ejs') %>
+
+<div class="container">
+    <div class="row justify-content-md-center">
+
+        <div class="col-md-6 rounded mx-my-3" id="contact">
+
+            <p>If you need to know more contact here:</p>
+            <div class="row justify-content-md-center mx-my-3">
+                <ul class="list-group">
+                    <li class="list-group-item">Name: <%= name %></li>
+                    <li class="list-group-item">Email: <%= email %></li>
+                    <li class="list-group-item">Cell: <%= phoneNumber %> </li>
+                    <li class="list-group-item">Mailing Address: <%= address %> <br> <%= city %>, <%= state %>
+                        <%= zip %></li>
+                </ul>
+            </div>
+            <br>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+<%- include('partials/footer.ejs') %>

@@ -1,0 +1,109 @@
+body {
+    background-color: #ffffff;
+    color: #ffffff;
+    margin:0PX;
+}
+
+header{
+    text-align:center;
+    background-color:#2196F3;
+    color: #ffffff;
+    margin:0px;
+    
+}
+
+div {
+    margin: auto;
+}
+
+.content {
+    max-width: 600px;
+    margin: auto;
+    font-size: x-large;
+    color: #212121;
+    
+  }
+
+header h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size:4em;
+    margin-bottom:0px;
+    
+}
+
+h3 {
+    color: #212121;
+    text-align: center;
+}
+
+nav {
+    font-size: large;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1976D2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+nav  li {
+    float: left;
+  }
+  
+nav  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+nav  li a:hover {
+    background-color: #111;
+  }
+
+
+nav li {
+    display: inline;
+}
+
+nav li a:active {
+    background-color: #FF4081;
+}
+
+.activePage {
+    background-color: #FF4081;
+}
+
+
+
+footer {
+    font-size:1em;
+    color: #757575;
+    text-align:center;
+    background-color: #ffffff;
+}
+
+
+hr {
+    color: #BDBDBD;
+}
+
+body innerBody {
+    display:flex;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
